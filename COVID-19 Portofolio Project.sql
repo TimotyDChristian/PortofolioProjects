@@ -1,3 +1,4 @@
+-- Big thanks to Alex The Analyst for teaching me how to do this!
 -- Shows all the data from CovidDeaths table
 SELECT *
 FROM ProjectPortofolio..CovidDeaths
