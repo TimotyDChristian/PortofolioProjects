@@ -23,3 +23,5 @@ Select Location, Population,date, MAX(total_cases) as HighestInfectionCount,  Ma
 From ProjectPortofolio..CovidDeaths
 Group by Location, Population, date
 order by PercentPopulationInfected desc
+
+-- Shoutout to Alex The Analyst for teaching me how to do this!
