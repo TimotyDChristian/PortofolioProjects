@@ -1,11 +1,9 @@
+-- Shows all the data from CovidDeaths table
 SELECT *
 FROM ProjectPortofolio..CovidDeaths
 ORDER BY 3,4
 
---SELECT *
---FROM ProjectPortofolio..CovidVaccinations
---ORDER BY 3,4
-
+-- Shows some data from CovidDeaths table ordered by location and date
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM ProjectPortofolio..CovidDeaths
 WHERE continent is not null
